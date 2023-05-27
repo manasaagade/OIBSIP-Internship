@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Shopsify</title>
+    <style>
+      body {
+        font-family: Century Gothic;
+        margin: 0;
+        padding: 0;
+        background: #c3c4dd;
+      }
+      header {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 20px;
+        
+      }
+      h1 {
+        font-size: 48px;
+        margin: 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Copperplate Gothic Light;
+      }
+      section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+        text-align: center;
+      }
+      h2 {
+        font-family: Century Gothic;
+        font-size: 36px;
+        margin: 0 0 20px;
+        color: #040000;
+    
+
+      }
+      p {
+        font-size: 24px;
+        margin: 0 0 40px;
+      }
+      img{
+        size: 30px;
+        border: 4px solid #0e0d0d;
+        object-fit: cover;
+        height: 200px;
+        width: 150px;
+
+
+      }
+      button {
+        background-color: #000000;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 15%;
+      }
+      button:hover {
+        background-color: #267dff;
+      }
+      .flex-parent {
+        display: flex;
+        }
+        .flex-child {
+        flex: 0.5;
+        
+        }
+
+      footer {
+    background-color: #0e0d0d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .topnav {
+    background-color: rgba(224, 95, 186, 0.904);
+    overflow: hidden;
+    cursor: all-scroll;
+    shape-margin: 12px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(255, 255, 255);
+}
+.topnav-right {
+  float: right;
+}
+.social{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.social a{
+	display: inline-block;
+	padding: 5px;
+
+}
+.social a i{
+	color: #fff;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    line-height: 50px!important;
+    border: 3px solid #fff;
+	opacity: .8;
+transition-property: transform;
+    -moz-transition-property: -moz-transform;
+    -webkit-transition-property: -webkit-transform;
+    transition: all 0.6s cubic-bezier(0.88, -0.48, 0.38, 1.85);
+	border-radius: 50%;
+	
+	}
+.social a i:hover{
+	opacity: 1;
+	border-radius: 20%;
+	
+}
+.social a:hover i.fa-linkedin-in,.social a:hover i.fa-telegram-plane{
+	transition:  .6s ease-in;
+	background: #080808; 
+	color: white;
+	border: 3px solid #0f0f0f; 
+	
+transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.social a:hover i.fa-at{
+	transition:  .6s ease-in;
+	background: #052d83; 
+	color:white;
+	border: 3px solid #fd8e8e;
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+}
+.social a:hover i.fa-instagram{
+	transition:  .6s ease-in;
+	background: linear-gradient(#F58529 20%, #FEDA77 50%, #DD2A7B 75%, #8134AF 90%, #515BD4)
+; 
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+	border: 3px solid #fd8e8e; 
+	color:white;
+	
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>@TrEndSoCiEtY</h1>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Electronics</a>
+            <a href="#">Accessories</a>
+            <div class="topnav-right">
+            <a href="#search">Search</a>
+            <a href="#about">Contact</a>
+        </div>
+    </header>
+    
+    <section>
+      <h2>Shop on TrEndSoCiEtY</h2>
+      
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child' ><img src="Shirt.jpg" alt="image"></div>
+            <div class='child flex-child' ><img src="saree.jpg" alt="image"></div>
+            <div class='child flex-child' ><img src="kids.jfif" alt="image"></div>
+            <div class='child flex-child' ><img src="ele.jpg" alt="image"></div>
+            <div class='child flex-child' ><img src="ace.jpg" alt="image"></div>
+        </div>
+      </div>
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child' id="price1">14$ (20% off)</div>
+            <div class='child flex-child' id="price2">21$ (30% off)</div>
+            <div class='child flex-child' id="price3">9.9$(50% off)</div>
+            <div class='child flex-child' id="price3">45.2$(50% off)</div>
+            <div class='child flex-child' id="price3">20.5$(50% off)</div>
+        </div>
+      </div>
+      <div>
+        <div class='parent flex-parent'>
+            <div class='child flex-child'><button>BUY</button></div>
+            <div class='child flex-child'><button>BUY</button></div>
+            <div class='child flex-child'><button>BUY</button></div>
+            <div class='child flex-child'><button>BUY</button></div>
+            <div class='child flex-child'><button>BUY</button></div>
+        </div>
+      </div>
+    </section>
+        <footer>
+            <section class="social">
+                <a href="">
+                    <i class="fas fa-at"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+            </section>
+            <p><b>Thank you !! Visit Again :) </b></p>
+            <p>Copyright @ TrEndSoCiEtY pvt ltd 2023</p>
+            <p><i>since 1998</i></p>
+
+      </footer>
+  </body>
